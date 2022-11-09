@@ -104,7 +104,7 @@ body{
     animation: slides 17s infinite linear;
 }
 @keyframes slides{
-    0%{ background-image: url('../images/image3.jpg');}
+    0%{ ojbect-fit: 'cover'; background-image: url('../images/image3.jpg');}
     35%{ background-image: url('../images/image2.jpg');}
     74%{ background-image: url('../images/image1.jpg');}    
 }
